@@ -25,3 +25,7 @@
 
 Loki is a modern and advanced pentesting and bug bounty framework written in Go!
 Because it uses Go it is super fast, stable and modular.
+
+Loki performs tasks such as portscanning, directory scanning, fetching DNS data and fetching response headers.
+
+As a pentester, Loki is all you need.
