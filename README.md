@@ -29,3 +29,5 @@ Because it uses Go it is super fast, stable and modular.
 Loki performs tasks such as portscanning, directory scanning, fetching DNS data and fetching response headers.
 
 As a pentester, Loki is all you need.
+
+Loki is inspired by the rise of popular tools (written in Go) that aim to automate common bug bounty tasks. Very advanced tools such as XSStrike and uro.
