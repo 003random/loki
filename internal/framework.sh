@@ -19,14 +19,16 @@ do
     fi
 done
 
-if [ $passed -eq 0 ]; then
+if [ $found -eq 1 ]; then
+        echo "done scanning for directories"
+    else
         echo "no directories found..."
 fi
 
 printf "\n${GREEN}[+] fetching response headers for $1${NC}\n"
-curl -X HEAD -i "http://$1/"
+curl --head "http://$1/"
 
-printf "\n${GREEN}[+] running a portscan on $1${NC}\n"
+printf "${GREEN}[+] running a portscan on $1${NC}\n"
 for port in {1..65535}; do
     echo >/dev/tcp/$1/$port &&
     echo "port $port is open" ||
