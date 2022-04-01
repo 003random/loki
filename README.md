@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/003random/loki"><img src="https://neonxp.gallerycdn.vsassets.io/extensions/neonxp/gotools/0.0.7/1617490636710/Microsoft.VisualStudio.Services.Icons.Default" alt="loki"></a>
+  <a href="https://github.com/003random/loki"><img src="https://neonxp.gallerycdn.vsassets.io/extensions/neonxp/gotools/0.0.7/1617490636710/Microsoft.VisualStudio.Services.Icons.Default" alt="loki" sty></a>
   <br>
-  XSStrike
+  Loki
   <br>
 </h1>
 
