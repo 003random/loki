@@ -31,3 +31,9 @@ Loki performs tasks such as portscanning, directory scanning, fetching DNS data 
 As a pentester, Loki is all you need.
 
 Loki is inspired by the rise of popular tools (written in Go) that aim to automate common bug bounty tasks. Very advanced tools such as XSStrike and uro.
+
+
+## Installation
+```
+go install -v github.com/003random/loki
+```
